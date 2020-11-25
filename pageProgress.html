@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto A</title>
+
+    <link href="../bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../styles/fonts.css">
+    <link rel="stylesheet" href="../styles/page.css">
+    <link rel="stylesheet" href="../styles/interact.css">
+    <link rel="stylesheet" href="../styles/partials/pageProgress.css">
+
+    <script src="https://kit.fontawesome.com/6702daccf8.js" crossorigin="anonymous"></script>
+</head>
+<body class="text-light" style="background-color: black;">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+        <span class="glitch-span" aria-hidden="true">PROJETO A</span>
+        <a class="navbar-brand" href="pageLanding.html" id="major">PROJETO A</a>
+        <span class="glitch-span" aria-hidden="true">PROJETO A</span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="pageLanding.html">Início</a>
+                <a class="nav-item nav-link active" href="pageProgress.html">Progresso <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="pageParticipate.html">Participe</a>
+                <a class="nav-item nav-link" href="pageDevlog.html">Dev Log</a>
+                <a class="nav-item nav-link" href="pageDevportal.html">Dev Portal</a>
+                <a class="nav-item nav-link" href="pageExperience.html">A-Access</a>
+                <a class="nav-item nav-link" href="pageAbout.html">Sobre</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="my-3 p-3 bg-white text-dark rounded box-shadow table-responsive-md">
+            <h3 class="border-bottom border-gray pb-2 mb-0">Patchs</h3>
+
+            <table id="table" class="table table-striped">
+                <thead>
+                  <tr>
+                    <th scope="col">Versão</th>
+                    <th scope="col">Início do desenvolvimento</th>
+                    <th scope="col">Fim do suporte</th>
+                    <th scope="col">Segurança</th>
+                    <th scope="col">Data de lançamento prevista</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">2020.11-1.2</th>
+                    <td>15-10-2020</td>
+                    <td>15-04-2021</td>
+                    <td><i class="fas fa-check"></i></td>
+                    <td>05-11-2021</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2020.08-1.1</th>
+                    <td>02-05-2020</td>
+                    <td>02-11-2020</td>
+                    <td><i class="fas fa-check"></i></td>
+                    <td>02-07-2020</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2020.02-1.0</th>
+                    <td>12-01-2020</td>
+                    <td>12-07-2020</td>
+                    <td><i class="fas fa-exclamation-triangle"></i></td>
+                    <td>08-03-2020</td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+
+        <div class="my-3 p-3 bg-white text-dark rounded box-shadow">
+            <h3 class="border-bottom border-gray pb-2 mb-0">Dados</h3>
+
+            &emsp;
+            <h6 class="media-body pb-3 mb-0 lh-125 border-bottom border-gray">Servidor Principal - Armazenamento <i class="fas fa-exclamation-triangle"></i></h6>
+            <div class="progress">
+                <div class="progress-bar bg-warning" role="progressbar" style="width: 86%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">86%</div>
+            </div>
+            &emsp;
+            <h6 class="media-body pb-3 mb-0 lh-125 border-bottom border-gray">Servidor de Testes - Armazenamento</h6>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 46%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">46%</div>
+            </div>
+        </div>
+        <div class="my-3 p-3 bg-white text-dark rounded box-shadow">
+            <h3 class="border-bottom border-gray pb-2 mb-0">UI</h3>
+
+            &emsp;
+            <h6 class="media-body pb-3 mb-0 lh-125 border-bottom border-gray">Website - Estado de Desenvolvimento <i class="fas fa-check"></i></h6>
+            <div class="progress">
+                <div class="progress-bar bg-success" role="progressbar" style="width: 100%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">100%</div>
+            </div>
+            &emsp;
+            <h6 class="media-body pb-3 mb-0 lh-125 border-bottom border-gray">DevPortal - Estado de Desenvolvimento <i class="fas fa-check"></i></h6>
+            <div class="progress">
+                <div class="progress-bar bg-success" role="progressbar" style="width: 100%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">100%</div>
+            </div>
+        </div>
+        <div class="my-3 p-3 bg-white text-dark rounded box-shadow">
+            <h3 class="border-bottom border-gray pb-2 mb-0">Engenharia</h3>
+
+            &emsp;
+            <h6 class="media-body pb-3 mb-0 lh-125 border-bottom border-gray">Core - Estado de Desenvolvimento do patch atual</h6>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 88%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">88%</div>
+            </div>
+            &emsp;
+            <h6 class="media-body pb-3 mb-0 lh-125 border-bottom border-gray">Framework - Estado de Desenvolvimento do patch atual</h6>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 56%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">56%</div>
+            </div>
+            &emsp;
+            <h6 class="media-body pb-3 mb-0 lh-125 border-bottom border-gray">API - Estado de Desenvolvimento</h6>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 72%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">72%</div>
+            </div>
+            &emsp;
+            <h6 class="media-body pb-3 mb-0 lh-125 border-bottom border-gray">Plugins - Estado de Desenvolvimento</h6>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 42%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">42%</div>
+            </div>
+            &emsp;
+            <h6 class="media-body pb-3 mb-0 lh-125 border-bottom border-gray">Minor - Correção de bugs <i class="fas fa-check"></i></h6>
+            <div class="progress">
+                <div class="progress-bar bg-success" role="progressbar" style="width: 100%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">100%</div>
+            </div>
+        </div>
+        <div class="my-3 p-3 bg-white text-dark rounded box-shadow">
+            <h3 class="border-bottom border-gray pb-2 mb-0">Pesquisa</h3>
+
+            &emsp;
+            <h6 class="media-body pb-3 mb-0 lh-125 border-bottom border-gray">Redes Neurais Avançadas</h6>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 82%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">82%</div>
+            </div>
+            &emsp;
+            <h6 class="media-body pb-3 mb-0 lh-125 border-bottom border-gray">Comunicação com hardware ultra-sensível</h6>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 68%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">68%</div>
+            </div>
+            &emsp;
+            <h6 class="media-body pb-3 mb-0 lh-125 border-bottom border-gray">Nano-Tecnologia</h6>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 98%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">98%</div>
+            </div>
+        </div>
+    </div>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3" style="padding-top: 23px;">
+                    <h3><a href="pageLanding.html" id="major">PROJETO A</a></h3>
+                    <p>Matheus Silva <br> Márcio Siqueira</p>
+                </div>
+                <div class="col-sm-2">
+                    <h5 id="major">Explorar</h5>
+                    <ul>
+                        <li><a href="pageLanding.html">Início</a></li>
+                        <li><a href="pageDevlog.html">Dev Log</a></li>
+                        <li><a href="pageProgress.html">Progresso</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <h5 id="major">Sobre nós</h5>
+                    <ul>
+                        <li><a href="pageAbout.html">Sobre</a></li>
+                        <li><a href="#">Contato</a></li>
+                        <li><a href="#">Reviews</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <h5 id="major">Desenvolver</h5>
+                    <ul>
+                        <li><a href="pageDevportal.html">Dev Portal</a></li>
+                        <li><a href="pageExperience.html">Solicitar uma chave</a></li>
+                        <li><a href="pageParticipate.html">Oportunidades</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <div class="social-networks">
+                        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
+                    </div>
+                    <a class="btn btn-outline-success btn-lg" href="pageAbout.html" role="button" style="font-family: 'Cutive Mono', monospace; border-radius: 0;">Inscrever-se >></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p id="major">© 2020 PROJETO A </p>
+        </div>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../bootstrap/assets/js/vendor/popper.min.js"></script>
+    <script src="../bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../bootstrap/assets/js/vendor/holder.min.js"></script>
+</body>
+</html>

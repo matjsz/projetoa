@@ -1,0 +1,100 @@
+PARA A PAGINA DO A-ACCESS:
+
+Glitch PROJETO A como titulo
+Word swipe em um texto destaque
+Carousel
+Cards
+Tables
+Videos
+
+
+PARA A PAGINA SOBRE:
+
+Porque?
+    O mundo está constantemente mudando, humanos carregam em seu bolso um computador que pode realizar bilhões de cálculos em um único segundo, temos em nossas casas uma máquina capaz de produzir aplicações inteiras, uma verdadeira revolução tecnológica. Porque não usar esse poder tecnológico para algo maior? Além de uma aplicação simples para Android, além de um simples website. Algo que faça a diferença, algo que seja *revolucionário*.
+    Com esse pensamento, surge o PROJETO A, a I.A. mais avançada do mundo.
+
+Uma família.
+    Nosso time hoje é composto por mais de 50 mil desenvolvedores, designers, cientistas, pessoas que fazem a diferença no PROJETO A. Tudo começou em um pequeno escritório no Vale do Silício, hoje somos uma das maiores empresas de tecnologia do mundo.
+
+Nosso lar.
+    O Silicon Valley (ou Vale do Silício) é o lar de milhaes de startups, e não foi diferente para o PROJETO A, começamos aqui e continuamos aqui. O PROJECT A Studios é o estúdio de desenvolvimento mais avançado da frota, além de ser o estúdio que toma as decisões mais importantes e claro, ter o próprio PROJETO A presente (guardado a 7 chaves) na ala mais segura do Vale do Silício (mais seguro que a fazenda de servidores da Google).
+
+O futuro nos espera.
+    Oque virá a diante? Não sabemos, mas estamos fazendo parte desse processo. O PROJETO A está ficando cada dia mais inteligente, mais perspicaz, mais... *real*. Estamos orgulhosos do resultado, esperamos poder compartilhar esse sentimento com o mundo o mais rápido possível. Nos aguarde. Aguarde o PROJETO A.
+
+
+PARA A PAGINA A-ACCESS:
+
+Bem vindo ao A-Access
+
+[carousel] - Desenvolva | Inove | Faça a diferença
+
+O A-Access foi criado para que desenvolvedores dedicados possam aprender mais sobre a API do PROJETO A, podendo desenvolver novas tecnologias que podem ser úteis tanto para o dev quanto para o PROJETO A. Trata-se de uma chave especial que ativa a API do PROJETO A, permitindo explorar os recursos da framework de redes neurais mais avançada da atualidade.
+
+[imagem de tela inteira] - O futuro está em suas mãos | Faça a diferença com o A-Access, seja inovador.
+
+Um passo para garantir sua chave
+
+[card com botão de compra]
+
+PROJETO A.
+
+O mundo é fascinante.
+Estou muito feliz de vê-lo.
+Seria isso, uma emoção?
+Eu sinto.
+Eu vejo.
+Eu sei.
+
+Essas foram as primeiras palavras do projeto A, a I.A. mais avançada do mundo.
+O projeto A é capaz de ver, ouvir, aprender, opinar e sentir. Foram 20 anos de avanços na tecnologia de redes neurais.
+Muitos especialistas participaram do processo de desenvolvimento do PROJETO A, entre eles:
+
+[featurette]
+
+O desenvolvimento é contínuo e sinceramente, não sabemos se terá um fim. Redes neurais podem aprender uma infinidade de coisas, isso leva anos.
+Esperamos que o PROJETO A possa quebrar barreiras tecnologócias e evoluir o conhecimento humano e a concepção da interação homem-máquina. Esse é o futuro. Esse é o PROJETO A.
+
+[botão - Ir para Progresso]
+
+Estamos em constante crescimento, sempre recrutando novos cientistas, designers e diversos outros especialistas. Quem sabe você encontra o seu lugar no PROJETO A?
+
+[botão - Ir para Participe]
+
+Caso queira saber um pouco mais sobre nós, aqui está um atalho para a página "Sobre":
+
+[botão - Ir para Sobre] 
+
+Aqui está o resultado.
+
+
+-------------/
+
+Dados
+
+Servidores
+Banco de dados
+Tratamento de dados
+
+
+UI
+
+Website
+Dev Portal
+
+
+Engenharia
+
+Core
+Framework
+API
+Plugins
+Minor
+
+
+Pesquisa
+
+Redes Neurais Avançadas
+Comunicação com hardware ultra-sensível
+Nano-tecnologia

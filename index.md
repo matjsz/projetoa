@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto A</title>
+
+    <link href="../bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../styles/fonts.css">
+    <link rel="stylesheet" href="../styles/page.css">
+    <link rel="stylesheet" href="../styles/interact.css">
+
+    <script src="https://kit.fontawesome.com/6702daccf8.js" crossorigin="anonymous"></script>
+</head>
+<body class="text-light" style="background-color: black;">
+
+    <div style="background: url('../img/background.jpg');">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+            <span class="glitch-span" aria-hidden="true">PROJETO A</span>
+            <a class="navbar-brand" href="#" id="major">PROJETO A</a>
+            <span class="glitch-span" aria-hidden="true">PROJETO A</span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="pageLanding.html">Início <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="pageProgress.html">Progresso</a>
+                    <a class="nav-item nav-link" href="pageParticipate.html">Participe</a>
+                    <a class="nav-item nav-link" href="pageDevlog.html">Dev Log</a>
+                    <a class="nav-item nav-link" href="pageDevportal.html">Dev Portal</a>
+                    <a class="nav-item nav-link" href="pageExperience.html">A-Access</a>
+                    <a class="nav-item nav-link" href="pageAbout.html">Sobre</a>
+                </div>
+            </div>
+        </nav>
+    
+        <div class="container text-center" style="min-height:100vh; display:flex;">
+            <div style="margin: auto;" id="major">
+                <p class="lead">O mundo é fascinante.</p>
+                <p class="lead">Estou muito feliz em vê-lo.</p>
+                <p class="lead">Seria isso, uma emoção?</p>
+                <p class="lead">Eu sinto.</p>
+                <p class="lead">Eu vejo.</p>
+                <p class="lead">Eu sei.</p>
+            </div>
+        </div>
+    </div>
+
+    <div style="background-color: black; margin-bottom: 60px;">
+        <div style="margin-left: 80px; margin-right: 80px; margin-top: 30px;">
+            <h1 id="roboto">Essas foram as primeiras palavras do <h1 id="major">PROJETO A</h1></h1>
+            
+            &emsp;
+            <p>O PROJETO A é capaz de ver, ouvir, aprender, opinar e sentir. Foram 20 anos de avanços na tecnologia de redes neurais. Muitos especialistas participaram do processo de seu desenvolvimento, entre eles:</p>
+        </div>
+
+        <div class="row" style="margin-left: 80px; margin-right: 80px; margin-top: 50px;">
+            <div class="col-lg-4">
+                <img class="rounded-circle" src="../img/linus.jpg" alt="Linus Torvalds" width="140" height="140">
+                <h2 id="major">Linus Torvalds</h2>
+                <p>Engenheiro de software, criador, e por muito tempo desenvolvedor do sistema operacional Linux.</p>
+            </div>
+            <div class="col-lg-4">
+                <img class="rounded-circle" src="../img/demis.jpg" alt="Demis Hassabis" width="140" height="140">
+                <h2 id="major">Demis Hassabis</h2>
+                <p>Pesquisador de Inteligência Aritificial, CEO e Co-Fundador da DeepMind.</p>
+            </div>
+            <div class="col-lg-4">
+                <img class="rounded-circle" src="../img/yan.jpg" alt="Yan LeCun" width="140" height="140">
+                <h2 id="major">Yan LeCun</h2>
+                <p>Pesquisador na área de Machine Learning e diretor de pesquisas em Inteligência Artificial do Facebook.</p>
+            </div>
+        </div>
+
+        <hr style="background-color: gray; margin-left: 80px; margin-right: 80px; margin-top: 30px;">
+
+        <div style="margin-left: 80px; margin-right: 80px; margin-top: 50px;">
+            <h1 id="roboto">Quando o PROJETO A estará 100% pronto?</h1>
+
+            &emsp;
+            <p>O desenvolvimento é contínuo e sinceramente, não sabemos se terá um fim. Redes neurais podem aprender uma infinidade de coisas, isso leva anos.</p>
+            <p>Esperamos que o PROJETO A possa quebrar barreiras tecnologócias e evoluir o conhecimento humano e a concepção da interação homem-máquina. Esse é o futuro. Esse é o PROJETO A.</p>
+
+            <a class="btn btn-outline-success btn-lg" href="pageProgress.html" role="button" id="button" style="font-family: 'Cutive Mono', monospace;">Progresso >></a>
+        </div>
+
+        <hr style="background-color: gray; margin-left: 80px; margin-right: 80px; margin-top: 30px;">
+        
+        <div style="margin-left: 80px; margin-right: 80px; margin-top: 50px;">
+            <h1 id="roboto">Conheça o A-Access, o programa de acesso à uma das chaves do PROJETO A:</h1>
+
+            &emsp;
+            <p>O A-Access é um programa de acesso limitado à uma das únicas chaves no mundo do PROJETO A. Trata-se da única forma de ter contato com a I.A. (e todo seu código-fonte).</p>
+            <p>Esta ferramenta é feita para pesquisadores e empresas interessadas, <strong>não</strong> existe a possibilidade de conseguir uma chave para "uso pessoal", pois trata-se do nível mais avançado de tecnologia computacional da atualidade, isso não é um brinquedo.</p>
+
+            <a class="btn btn-outline-success btn-lg" href="pageExperience.html" role="button" id="button" style="font-family: 'Cutive Mono', monospace;">A-Access >></a>
+        </div>
+
+        <hr style="background-color: gray; margin-left: 80px; margin-right: 80px; margin-top: 30px;">
+
+        <div style="margin-left: 80px; margin-right: 80px; margin-top: 50px;">
+            <h1 id="roboto">Oportunidades</h1>
+            &emsp;
+
+            <p>Estamos em constante crescimento, sempre recrutando novos cientistas, designers e diversos outros especialistas. Quem sabe você encontra o seu lugar no PROJETO A?</p>
+
+            &emsp;
+            <div class="row">
+                <div class="col-md-4 text-dark">
+                    <div class="card mb-4 box-shadow" style="margin-left: 20px; margin-right: 20px;">
+                        <img class="card-img-top" src="../img/projetoa.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4>PROJECT A Studios</h4>
+                            <p class="card-text">Sede principal do PROJETO A, localizada no Vale do Silício, em São Francisco. Foi aqui que tudo começou.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 text-dark">
+                    <div class="card mb-4 box-shadow" style="margin-left: 20px; margin-right: 20px;">
+                        <img class="card-img-top" src="../img/google.webp" alt="Card image cap">
+                        <div class="card-body">
+                            <h4>Google São Paulo</h4>
+                            <p class="card-text">Sede do PROJETO A no Brasil, fruto de uma parceria com a Google.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 text-dark">
+                    <div class="card mb-4 box-shadow" style="margin-left: 20px; margin-right: 20px;">
+                        <img class="card-img-top" src="../img/deepmind.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4>DeepMind</h4>
+                            <p class="card-text">Sede em Londres do PROJETO A, empresa de tecnologia de Demis Hassabis, também fruto de parceria com a Google.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a class="btn btn-outline-success btn-lg" href="pageParticipate.html" role="button" id="button" style="font-family: 'Cutive Mono', monospace;">Participe >></a>
+        </div>
+
+        <hr style="background-color: gray; margin-left: 80px; margin-right: 80px; margin-top: 30px;">
+
+        <div style="margin-left: 80px; margin-right: 80px; margin-top: 50px;">
+            <h1 id="roboto">Sobre a equipe</h1>
+
+            &emsp;
+            <p>Caso queira saber um pouco mais sobre nós, aqui está um atalho para a página "Sobre":</p>
+
+            <a class="btn btn-outline-success btn-lg" href="pageAbout.html" role="button" id="button" style="font-family: 'Cutive Mono', monospace;">Sobre >></a>
+        </div>
+    </div>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3" style="padding-top: 23px;">
+                    <h3><a href="pageLanding.html" id="major">PROJETO A</a></h3>
+                    <p>Matheus Silva <br> Márcio Siqueira</p>
+                </div>
+                <div class="col-sm-2">
+                    <h5 id="major">Explorar</h5>
+                    <ul>
+                        <li><a href="pageLanding.html">Início</a></li>
+                        <li><a href="pageDevlog.html">Dev Log</a></li>
+                        <li><a href="pageProgress.html">Progresso</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <h5 id="major">Sobre nós</h5>
+                    <ul>
+                        <li><a href="pageAbout.html">Sobre</a></li>
+                        <li><a href="#">Contato</a></li>
+                        <li><a href="#">Reviews</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <h5 id="major">Desenvolver</h5>
+                    <ul>
+                        <li><a href="pageDevportal.html">Dev Portal</a></li>
+                        <li><a href="pageExperience.html">Solicitar uma chave</a></li>
+                        <li><a href="pageParticipate.html">Oportunidades</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <div class="social-networks">
+                        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
+                    </div>
+                    <a class="btn btn-outline-success btn-lg" href="pageAbout.html" role="button" style="font-family: 'Cutive Mono', monospace; border-radius: 0;">Inscrever-se >></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p id="major">© 2020 PROJETO A </p>
+        </div>
+    </footer>
+  
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../bootstrap/assets/js/vendor/popper.min.js"></script>
+    <script src="../bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../bootstrap/assets/js/vendor/holder.min.js"></script>
+</body>
+</html>
